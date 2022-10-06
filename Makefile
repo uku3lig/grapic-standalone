@@ -10,7 +10,7 @@ build: src/Grapic.cpp main.cpp
 	mkdir -p build
 	g++ -o build/main obj/Grapic.o obj/main_start.o -lSDL2 -lSDL2_image -lSDL2_ttf -s
 
-src/Grapic.cpp:
+download src/Grapic.cpp:
 	@echo "=== Downloading... ==="
 	@python download_grapic.py
 
