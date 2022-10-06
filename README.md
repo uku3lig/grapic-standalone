@@ -1,6 +1,7 @@
 # grapic-standalone
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/uku3lig/grapic-standalone?label=standalone%20size) ![GitHub repo size](https://img.shields.io/github/repo-size/ucacaxm/grapic?label=grapic%20size)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/uku3lig/grapic-standalone?label=grapic-standalone%20size)
+![GitHub repo size](https://img.shields.io/github/repo-size/ucacaxm/grapic?label=grapic%20size)
 
 **grapic-standalone** is a very simple makefile made to compile apps that use the [Grapic](https://github.com/ucacaxm/grapic) library.
 
