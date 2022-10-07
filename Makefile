@@ -17,7 +17,7 @@ obj/Grapic.o: src/Grapic.h src/Grapic.cpp
 
 download src/Grapic.cpp src/Grapic.h:
 	@echo "=== Downloading... ==="
-	@python download_grapic.py
+	@bash download_grapic.sh
 
 clean:
 	rm -rf obj/
