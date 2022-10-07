@@ -17,7 +17,9 @@ You need to have g++, make, SDL2, SDL2_image and SDL2_ttf installed on your mach
 
 ## Usage
 
-Run `bash -c "$(curl -fsSL https://raw.githubusercontent.com/uku3lig/grapic-standalone/master/setup.sh)" <PROJECT_NAME>` to download the makefile.
+Download [setup.sh](https://raw.githubusercontent.com/uku3lig/grapic-standalone/master/setup.sh)
+
+Run `bash setup.sh <PROJECT_NAME>` to download the makefile.
 
 Edit `main.cpp` to your liking, then run `make`. It will generate a `main` file in the `build` directory, which you can execute to run your program.
 
