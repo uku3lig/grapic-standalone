@@ -9,9 +9,10 @@ fi
 git clone --depth 1 https://github.com/uku3lig/grapic-standalone "$1"
 cd "$1" || exit
 
-rm -rf .git .gitignore LICENSE README.md setup.sh
+bash download_grapic.sh
+rm -rf .git .gitignore LICENSE README.md setup.sh download_grapic.sh
+
 mv main.cpp "$1.cpp"
 sed -i -e "s/main/$1/g" Makefile
-bash download_grapic.sh
 
 echo "Project setup in directory '$1'"
