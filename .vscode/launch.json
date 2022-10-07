@@ -8,7 +8,7 @@
             "name": "Start: Build and debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/home/leo/Documents/git_repos/grapic-standalone/build/main",
+            "program": "${fileDirname}/build/main",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
