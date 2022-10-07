@@ -9,17 +9,17 @@
 
 You need to have g++, make, SDL2, SDL2_image and SDL2_ttf installed on your machine.
 
-To download and compile Grapic itself, you will need Python 3. If you don't want to install it, you can manually download the .cpp and .h files [here](https://github.com/ucacaxm/grapic/tree/master/src) and put them in the `src` directory.
-
 ### Debian-based (`apt`)
-`apt install make g++ libsdl2-dev libsdl2-mixer-dev libsdl2-image-dev python3`
+`apt install make g++ libsdl2-dev libsdl2-mixer-dev libsdl2-image-dev`
 
 ### Arch-based (`pacman`)
-`pacman -S make g++ sdl2 sdl2_image sdl2_ttf python`
+`pacman -S make g++ sdl2 sdl2_image sdl2_ttf`
 
 ## Usage
 
-Clone the repo, edit `main.cpp` to your liking, then run `make`. It will generate a `main` file in the `build` directory, which you can execute to run your program.
+Run `bash -c "$(curl -fsSL https://raw.githubusercontent.com/uku3lig/grapic-standalone/master/setup.sh)" <PROJECT_NAME>` to download the makefile.
+
+Edit `main.cpp` to your liking, then run `make`. It will generate a `main` file in the `build` directory, which you can execute to run your program.
 
 Run `make clean` to remove all build files.
 
