@@ -1,7 +1,7 @@
 # grapic-standalone
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/uku3lig/grapic-standalone?label=grapic-standalone%20size)
-![GitHub repo size](https://img.shields.io/github/repo-size/ucacaxm/grapic?label=grapic%20size)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/uku3lig/grapic-standalone?label=grapic-standalone%20size&color=green)
+![GitHub repo size](https://img.shields.io/github/repo-size/ucacaxm/grapic?label=grapic%20size&color=red)
 
 **grapic-standalone** is a very simple makefile made to compile apps that use the [Grapic](https://github.com/ucacaxm/grapic) library.
 
@@ -15,11 +15,13 @@ You need to have g++, make, SDL2, SDL2_image and SDL2_ttf installed on your mach
 ### Arch-based (`pacman`)
 `pacman -S make g++ sdl2 sdl2_image sdl2_ttf`
 
+## Installation
+
+You can run `bash -c $(curl -fsSL https://raw.githubusercontent.com/uku3lig/grapic-standalone/master/setup.sh)` to setup a workspace in the current directory.
+
+Alternatively, you can download [setup.sh](https://raw.githubusercontent.com/uku3lig/grapic-standalone/master/setup.sh) and run `bash setup.sh <PROJECT_NAME>` to download the makefile.
+
 ## Usage
-
-Download [setup.sh](https://raw.githubusercontent.com/uku3lig/grapic-standalone/master/setup.sh)
-
-Run `bash setup.sh <PROJECT_NAME>` to download the makefile.
 
 Edit `main.cpp` to your liking, then run `make`. It will generate a `main` file in the `build` directory, which you can execute to run your program.
 
