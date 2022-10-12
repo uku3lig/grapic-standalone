@@ -17,7 +17,7 @@ You need to have g++, make, SDL2, SDL2_image and SDL2_ttf installed on your mach
 
 ## Installation
 
-You can run `bash -c $(curl -fsSL https://raw.githubusercontent.com/uku3lig/grapic-standalone/master/setup.sh)` to setup a workspace in the current directory.
+You can run `bash -c "$(curl -fsSL https://raw.githubusercontent.com/uku3lig/grapic-standalone/master/setup.sh)"` to setup a workspace in the current directory.
 
 Alternatively, you can download [setup.sh](https://raw.githubusercontent.com/uku3lig/grapic-standalone/master/setup.sh) and run `bash setup.sh <PROJECT_NAME>` to download the makefile.
 
