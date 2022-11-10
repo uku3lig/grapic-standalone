@@ -7,13 +7,13 @@
 
 ## Dependencies
 
-You need to have g++, make, SDL2, SDL2_image and SDL2_ttf installed on your machine.
+You need to have git, g++, make, SDL2, SDL2_image and SDL2_ttf installed on your machine.
 
 ### Debian-based (`apt`)
-`apt install make gcc libsdl2-dev libsdl2-mixer-dev libsdl2-image-dev`
+`apt install git make gcc libsdl2-dev libsdl2-mixer-dev libsdl2-image-dev libsdl2-ttf-dev`
 
 ### Arch-based (`pacman`)
-`pacman -S --needed make gcc sdl2 sdl2_image sdl2_ttf`
+`pacman -S --needed git make gcc sdl2 sdl2_image sdl2_ttf`
 
 ## Installation
 
