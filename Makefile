@@ -8,12 +8,12 @@ build: obj/Grapic.o obj/main.o
 obj/main.o: main.cpp
 	@echo "=== Compiling... ==="
 	mkdir -p obj
-	g++ -MMD -MP -Isrc -I/usr/include/SDL2 -o obj/main.o -MF obj/main.d -c -Wall main.cpp
+	g++ -MMD -MP -Isrc -I/opt/homebrew/include/SDL2 -o obj/main.o -MF obj/main.d -c -Wall main.cpp
 
 obj/Grapic.o: src/Grapic.h src/Grapic.cpp
 	@echo "=== Compiling Grapic... ==="
 	mkdir -p obj
-	g++ -MMD -MP -Isrc -I/usr/include/SDL2 -o obj/Grapic.o -MF obj/Grapic.d -c src/Grapic.cpp
+	g++ -MMD -MP -Isrc -I/opt/homebrew/include/SDL2 -o obj/Grapic.o -MF obj/Grapic.d -c src/Grapic.cpp
 
 download src/Grapic.cpp src/Grapic.h:
 	@echo "=== Downloading... ==="
