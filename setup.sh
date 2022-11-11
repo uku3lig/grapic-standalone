@@ -11,6 +11,8 @@ fi
 git clone --depth 1 https://github.com/uku3lig/grapic-standalone "$GRAPIC_DIRNAME"
 cd "$GRAPIC_DIRNAME" || exit
 
+git switch mac
+
 bash download_grapic.sh
 rm -rf .git .gitignore LICENSE README.md setup.sh download_grapic.sh
 
